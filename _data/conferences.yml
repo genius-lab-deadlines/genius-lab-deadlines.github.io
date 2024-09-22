@@ -250,12 +250,12 @@
   tags: [CV, CONF]
 
 - name: CHI
-  year: 2025
-  date: Apr 26-May 1
+  year: 2026
+  date: Apr 
   description: CHI conference on Human Factors in Computing Systems
   link: https://chi2025.acm.org/
   deadline:
     - "2025-09-12 23:59"
   timezone: Etc/GMT+12
-  place: Yokohama, Japan
+  place: TBD
   tags: [SYS, CONF]
