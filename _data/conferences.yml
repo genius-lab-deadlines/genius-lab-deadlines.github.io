@@ -114,3 +114,148 @@
   place: Singapore EXPO
   tags: [AI, CONF, Tier1]
 
+- name: (Estimated DDL) ICML
+  year: 2025
+  date: Jul 13-19
+  description: International Conference on Machine Learning
+  link: https://icml.cc/
+  deadline:
+    - "2025-02-01 23:59"
+  timezone: Etc/GMT+12
+  place: Vancouver, BC, Canada
+  tags: [AI, CONF, Tier1]
+
+- name: (Estimated DDL) IJCAI
+  year: 2025
+  date: Aug 16-22
+  description: International Joint Conferences on Artificial Intelligence
+  link: https://www.ijcai.org/
+  deadline:
+    - "2025-01-17 23:59"
+  timezone: Etc/GMT+12
+  place: Montreal, Canada
+  tags: [AI, CONF, Tier1]
+
+- name: MobiCom
+  year: 2025
+  date: Nov
+  description: Annual International Conference on Mobile Computing and Networking 
+  link: https://www.sigmobile.org/mobicom/2025/
+  deadline:
+    - "2024-09-05 23:59"
+    - "2025-03-18 23:59"
+  timezone: Etc/GMT+12
+  place: Hong Kong, China
+  tags: [SYS, CONF, Tier1]
+
+- name: MobiSys
+  year: 2025
+  date: TBD
+  description: ACM International Conference on Mobile Systems, Applications, and Services
+  link: https://sigmobile.org/mobisys/2025/
+  deadline:
+    - "2024-11-09 23:59"
+  timezone: Etc/GMT+12
+  place: Anaheim, California, US
+  tags: [SYS, CONF, Tier1]
+
+- name: (Estimated DDL) SenSys
+  year: 2025
+  date: TBD
+  description: ACM Conference on Embedded Networked Sensor Systems
+  link: https://genius-lab-deadlines.github.io/
+  deadline:
+    - "2025-07-01 23:59"
+  timezone: Etc/GMT+12
+  place: TBD
+  tags: [SYS, CONF, Tier1]
+
+- name: (Estimated DDL) INFOCOM
+  year: 2026
+  date: TBD
+  description: IEEE International Conference on Computer Communications
+  link: https://genius-lab-deadlines.github.io/
+  deadline:
+    - "2025-07-24 23:59"
+  timezone: Etc/GMT+7
+  place: TBD
+  tags: [SYS, CONF, Tier1]
+
+- name: (Estimated DDL) MobiHoc
+  year: 2025
+  date: TBD
+  description: International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing
+  link: https://genius-lab-deadlines.github.io/
+  deadline:
+    - "2025-04-14 23:59"
+  timezone: Etc/GMT+4
+  place: TBD
+  tags: [SYS, CONF, Tier1]
+
+- name: IMWUT
+  year: 2025
+  date: N/A
+  description: Interactive, Mobile, Wearable and Ubiquitous Technologies
+  link: https://dl.acm.org/journal/imwut
+  deadline:
+    - "2024-11-01 23:59"
+    - "2025-02-01 23:59"
+    - "2025-05-01 23:59"
+  timezone: Etc/GMT+12
+  place: N/A
+  tags: [SYS, JOUR, Tier1]
+
+- name: (Estimated DDL) SigComm
+  year: 2025
+  date: TBD
+  description: Annual Conference of the ACM Special Interest Group on Data Communication
+  link: https://genius-lab-deadlines.github.io/
+  deadline:
+    - "2025-02-02 23:59"
+  timezone: Etc/GMT+0
+  place: TBD
+  tags: [SYS, CONF, Tier1]
+
+- name: ICDCS
+  year: 2025
+  date: Jul 20-23
+  description: IEEE International Conference on Distributed Computing Systems
+  link: https://icdcs2025.icdcs.org/
+  deadline:
+    - "2024-12-04 23:59"
+  timezone: Etc/GMT+12
+  place: Glasgow, Scotland, UK
+  tags: [SYS, CONF]
+
+- name: (Estimated DDL) MM
+  year: 2025
+  date: Oct
+  description: ACM Multimedia
+  link: https://genius-lab-deadlines.github.io/
+  deadline:
+    - "2025-04-12 23:59"
+  timezone: Etc/GMT+12
+  place: TBD
+  tags: [CV, CONF, Tier1]
+
+- name: (Estimated DDL) 3DV
+  year: 2026
+  date: Aug
+  description: International Conference on 3D Vision
+  link: https://genius-lab-deadlines.github.io/
+  deadline:
+    - "2025-08-12 23:59"
+  timezone: Etc/GMT+7
+  place: TBD
+  tags: [CV, CONF]
+
+- name: CHI
+  year: 2025
+  date: Apr 26-May 1
+  description: CHI conference on Human Factors in Computing Systems
+  link: https://chi2025.acm.org/
+  deadline:
+    - "2025-09-12 23:59"
+  timezone: Etc/GMT+12
+  place: Yokohama, Japan
+  tags: [SYS, CONF]
