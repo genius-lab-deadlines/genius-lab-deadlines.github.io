@@ -1,14 +1,12 @@
-title: Security and Privacy Conference Deadlines
-description: Countdowns to top Security and Privacy conference deadlines.
-author: Bogdan Kulynych
+title: GENIUS Lab Deadlines
+description: Countdowns to top AI, CV, and Mobile System Conferences
+author: Hongfei Xue
 
-domain: "sec-deadlines.github.io"
+domain: "genius-lab-deadlines.github.io"
 baseurl: ""
 
-twitter_username: hiddenmarkov
-github_username: sec-deadlines
-github_repo: sec-deadlines
-ga_id: UA-104921371-1
+github_username: genius-lab-deadlines
+github_repo: genius-lab-deadlines
 
-markdown: kramdown
+markdown: markdown
 

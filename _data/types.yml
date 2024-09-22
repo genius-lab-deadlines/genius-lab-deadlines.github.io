@@ -1,13 +1,17 @@
 ---
-- name: Security
-  tag: SEC
-- name: Privacy
-  tag: PRIV
-- name: Crypto
-  tag: CRYPTO
-- name: Top 4
-  tag: TOP4
+- name: AI
+  tag: AI
+- name: CV
+  tag: CV
+- name: System
+  tag: SYS
+- name: Medical
+  tag: MED
+- name: Tier 1
+  tag: Tier1
 - name: Conference
   tag: CONF
 - name: Workshop
   tag: SHOP
+- name: Journal
+  tag: JOUR

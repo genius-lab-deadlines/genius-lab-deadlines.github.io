@@ -1,10 +1,10 @@
-# Security and Privacy deadlines countdown
+# UNCC GENIUS Lab Deadlines Countdown
 
-Based on [ai-deadlines](https://aideadlin.es) by @abshkdz
+
 
 ## Adding/updating a conference
 
-* Read the data format description below. **Note that the timezone format sign is inverted** (e.g., UTC+7 is written as `Etc/GMT-7`). It's [not a bug][0]. I hate this format too. I'd be happy to move to a different timezone JavaScript library that uses a friendlier format, but I don't have time for that.
+* Read the data format description below. **Note that the timezone format sign is inverted** (e.g., UTC+7 is written as `Etc/GMT-7`). It's [not a bug][0].
 * Update `_data/conferences.yml`. You can do that on GitHub or locally after forking the repo.
 * Send a pull request
 
@@ -13,14 +13,16 @@ Based on [ai-deadlines](https://aideadlin.es) by @abshkdz
 Example record:
 
 ```
-- name: Euro S&P
-  description: IEEE European Symposium on Security and Privacy
-  year: 2018
-  link: http://www.ieee-security.org/TC/EuroSP2018/
-  deadline: "2017-08-15 23:59"
-  date: April 24-26
-  place: London, UK
-  tags: [SEC, PRIV]
+- name: CVPR
+  year: 2025
+  date: June 10-15
+  description: The IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  link: https://cvpr.thecvf.com/
+  deadline:
+    - "2024-11-15 23:59"
+  timezone: Etc/GMT+6
+  place: Music City Center, Nashville TN, USA
+  tags: [AI, CV, Tier1]
 ```
 
 Descriptions of the fields:
@@ -36,7 +38,7 @@ Descriptions of the fields:
 | `timezone`    | [Timezone][5] in [tz][1] format. By default is UTC-12 ([AoE][2])                        |
 | `date`        | When the conference is happening                                                        |
 | `place`       | Where the conference is happening                                                       |
-| `tags`        | One or multiple [tags][3]: `SEC`, `PRIV`, or `CRYPTO` (topic); `CONF` or `SHOP` (venue) |
+| `tags`        | One or multiple [tags][3]: `AI`, `CV`, or `SYS` (topic); `CONF`, `JOUR` or `SHOP` (venue) |
 
 Fields marked with asterisk (\*) are required.
 
@@ -83,3 +85,6 @@ The timezone is specified in [tz format][1]. Unlike abbreviations (e.g. EST), th
 [4]: #deadline-format
 [5]: #timezones
 
+## Acknowledgments
+
+Based on [sec-deadlines](https://sec-deadlines.github.io/) and [ai-deadlines](https://aideadlin.es).
