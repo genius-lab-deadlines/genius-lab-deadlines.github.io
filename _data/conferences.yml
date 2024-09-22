@@ -4,7 +4,7 @@
 
 - name: CVPR
   year: 2025
-  date: June 10-15
+  date: Jun 10-15
   description: The IEEE/CVF Conference on Computer Vision and Pattern Recognition
   link: https://cvpr.thecvf.com/
   deadline:
@@ -13,3 +13,26 @@
   place: Music City Center, Nashville TN, USA
   tags: [AI, CV, CONF, Tier1]
 
+- name: WACV
+  year: 2025
+  date: Feb 28-Mar 4
+  description: IEEE/CVF Winter Conference on Applications of Computer Vision
+  link: https://wacv2025.thecvf.com/
+  deadline:
+    - "2024-07-15 23:59"
+    - "2024-09-09 23:59"
+  timezone: Etc/GMT+8
+  place: Tucson, Arizona, USA
+  tags: [AI, CV, CONF]
+
+- name: (Estimated DDL) WACV
+  year: 2026
+  date: TBD
+  description: IEEE/CVF Winter Conference on Applications of Computer Vision
+  link: https://genius-lab-deadlines.github.io/
+  deadline:
+    - "2025-07-15 23:59"
+    - "2025-09-09 23:59"
+  timezone: Etc/GMT+8
+  place: TBD
+  tags: [AI, CV, CONF]
