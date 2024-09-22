@@ -36,3 +36,81 @@
   timezone: Etc/GMT+8
   place: TBD
   tags: [AI, CV, CONF]
+
+- name: (Estimated DDL) ICCV
+  year: 2025
+  date: Oct 19-25
+  description: IEEE/CVF International Conference on Computer Vision
+  link: https://genius-lab-deadlines.github.io/
+  deadline:
+    - "2025-03-08 23:59"
+  timezone: Etc/GMT+0
+  place: Honolulu, Hawaii, USA
+  tags: [AI, CV, CONF, Tier1]
+
+- name: ECCV
+  year: 2024
+  date: Sep 29-Otc 4
+  description: European Conference on Computer Vision
+  link: https://eccv.ecva.net/
+  deadline:
+    - "2024-03-07 00:59"
+  timezone: Etc/GMT+7
+  place: MiCo Milano, Italy
+  tags: [AI, CV, CONF, Tier1]
+
+- name: (Estimated DDL) NeurIPS
+  year: 2025
+  date: TBD
+  description: Neural Information Processing Systems
+  link: https://genius-lab-deadlines.github.io/
+  deadline:
+    - "2025-05-22 19:59"
+  timezone: Etc/GMT+0
+  place: San Diego, USA
+  tags: [AI, CONF, Tier1]
+
+- name: AAAI
+  year: 2025
+  date: Feb 25-Mar 4
+  description: Annual AAAI Conference on Artificial Intelligence
+  link: https://aaai.org/conference/aaai/aaai-25/
+  deadline:
+    - "2024-08-15 23:59"
+  timezone: Etc/GMT+12
+  place: Philadelphia, Pennsylvania, USA
+  tags: [AI, CONF, Tier1]
+
+- name: (Estimated DDL) AAAI
+  year: 2025
+  date: TBD
+  description: Annual AAAI Conference on Artificial Intelligence
+  link: https://genius-lab-deadlines.github.io/
+  deadline:
+    - "2025-08-15 23:59"
+  timezone: Etc/GMT+12
+  place: TBD
+  tags: [AI, CONF, Tier1]
+
+- name: (Estimated DDL) MICCAI
+  year: 2025
+  date: Sep 23-27
+  description: INTERNATIONAL CONFERENCE ON MEDICAL IMAGE COMPUTING AND COMPUTER ASSISTED INTERVENTION
+  link: https://genius-lab-deadlines.github.io/
+  deadline:
+    - "2025-03-07 23:59"
+  timezone: Etc/GMT+7
+  place: Daejeon, Republic of Korea
+  tags: [MED, CONF]
+
+- name: ICLR
+  year: 2025
+  date: Apr 24-28
+  description: International Conference on Learning Representations
+  link: https://iclr.cc/
+  deadline:
+    - "2024-10-01 23:59"
+  timezone: Etc/GMT+12
+  place: Singapore EXPO
+  tags: [AI, CONF, Tier1]
+
