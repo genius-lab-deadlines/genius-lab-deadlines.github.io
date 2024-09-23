@@ -13,6 +13,17 @@
   place: Music City Center, Nashville TN, USA
   tags: [AI, CV, CONF, Tier1]
 
+- name: (Internal DDL-10) CVPR
+  year: 2025
+  date: Jun 10-15
+  description: The IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  link: https://cvpr.thecvf.com/
+  deadline:
+    - "2024-11-05 23:59"
+  timezone: Etc/GMT+6
+  place: Music City Center, Nashville TN, USA
+  tags: [AI, CV, CONF, Tier1]
+
 - name: WACV
   year: 2025
   date: Feb 28-Mar 4
