@@ -125,6 +125,17 @@
   place: Singapore EXPO
   tags: [AI, CONF, Tier1]
 
+- name: (Estimated DDL) ICLR
+  year: 2026
+  date: Apr
+  description: International Conference on Learning Representations
+  link: https://iclr.cc/
+  deadline:
+    - "2024-10-01 23:59"
+  timezone: Etc/GMT+12
+  place: TBD
+  tags: [AI, CONF, Tier1]
+
 - name: (Estimated DDL) ICML
   year: 2025
   date: Jul 13-19
