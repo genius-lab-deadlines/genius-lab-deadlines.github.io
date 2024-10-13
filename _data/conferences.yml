@@ -281,3 +281,25 @@
   timezone: Etc/GMT+12
   place: TBD
   tags: [SYS, CONF]
+
+- name: (Estimated DDL) SIGGRAPH Asia
+  year: 2025
+  date: Dec
+  description: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia 
+  link: https://asia.siggraph.org/2025/
+  deadline:
+    - "2025-05-19 23:59"
+  timezone: Etc/GMT+12
+  place: TBD
+  tags: [CV, CONF]
+
+- name: (Estimated DDL) SIGGRAPH
+  year: 2025
+  date: Aug. 10-14
+  description: ACM SIGGRAPH Conference
+  link: https://s2025.siggraph.org/
+  deadline:
+    - "2025-01-24 21:59"
+  timezone: Etc/GMT+0
+  place: Vancouver, BC, Canada
+  tags: [CV, CONF]
