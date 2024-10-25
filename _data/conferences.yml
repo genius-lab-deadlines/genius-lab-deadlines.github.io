@@ -187,7 +187,7 @@
   description: ACM Conference on Embedded Networked Sensor Systems
   link: https://sensys.acm.org/2025/
   deadline:
-    - "2025-11-14 23:59"
+    - "2024-11-14 23:59"
   timezone: Etc/GMT+12
   place: Irvine, USA
   tags: [SYS, CONF, Tier1]
