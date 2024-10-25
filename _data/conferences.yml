@@ -181,15 +181,15 @@
   place: Anaheim, California, US
   tags: [SYS, CONF, Tier1]
 
-- name: (Estimated DDL) SenSys
+- name: SenSys
   year: 2025
-  date: TBD
+  date: May 6-9
   description: ACM Conference on Embedded Networked Sensor Systems
-  link: https://genius-lab-deadlines.github.io/
+  link: https://sensys.acm.org/2025/
   deadline:
-    - "2025-07-01 23:59"
+    - "2025-11-14 23:59"
   timezone: Etc/GMT+12
-  place: TBD
+  place: Irvine, USA
   tags: [SYS, CONF, Tier1]
 
 - name: (Estimated DDL) INFOCOM
