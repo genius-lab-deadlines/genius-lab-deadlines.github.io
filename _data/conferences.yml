@@ -8,8 +8,8 @@
   description: The IEEE/CVF Conference on Computer Vision and Pattern Recognition
   link: https://cvpr.thecvf.com/
   deadline:
-    - "2024-11-15 23:59"
-  timezone: Etc/GMT+6
+    - "2024-11-15 07:59"
+  timezone: Etc/GMT+0
   place: Music City Center, Nashville TN, USA
   tags: [AI, CV, CONF, Tier1]
 
@@ -161,11 +161,22 @@
 
 - name: MobiSys
   year: 2025
-  date: TBD
+  date: Jun 23-27
   description: ACM International Conference on Mobile Systems, Applications, and Services
   link: https://sigmobile.org/mobisys/2025/
   deadline:
     - "2024-11-09 23:59"
+  timezone: Etc/GMT+12
+  place: Anaheim, California, US
+  tags: [SYS, CONF, Tier1]
+
+- name: (Estimated DDL) MobiSys
+  year: 2026
+  date: TBD
+  description: ACM International Conference on Mobile Systems, Applications, and Services
+  link: https://sigmobile.org/mobisys/2026/
+  deadline:
+    - "2025-11-09 23:59"
   timezone: Etc/GMT+12
   place: Anaheim, California, US
   tags: [SYS, CONF, Tier1]
