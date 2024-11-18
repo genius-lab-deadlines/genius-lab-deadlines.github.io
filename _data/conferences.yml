@@ -13,6 +13,17 @@
   place: Music City Center, Nashville TN, USA
   tags: [AI, CV, CONF, Tier1]
 
+- name: (Estimated DDL) CVPR
+  year: 2026
+  date: Jun 10-15
+  description: The IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  link: https://cvpr.thecvf.com/
+  deadline:
+    - "2025-11-15 07:59"
+  timezone: Etc/GMT+0
+  place: TBD
+  tags: [AI, CV, CONF, Tier1]
+
 - name: WACV
   year: 2025
   date: Feb 28-Mar 4
@@ -192,6 +203,17 @@
   place: Irvine, USA
   tags: [SYS, CONF, Tier1]
 
+- name: (Estimated DDL) SenSys
+  year: 2026
+  date: TBD
+  description: ACM Conference on Embedded Networked Sensor Systems
+  link: https://sensys.acm.org/2026/
+  deadline:
+    - "2025-11-14 23:59"
+  timezone: Etc/GMT+12
+  place: TBD
+  tags: [SYS, CONF, Tier1]
+
 - name: (Estimated DDL) INFOCOM
   year: 2026
   date: TBD
@@ -293,13 +315,13 @@
   place: TBD
   tags: [CV, CONF]
 
-- name: (Estimated DDL) SIGGRAPH
+- name: SIGGRAPH
   year: 2025
   date: Aug. 10-14
   description: ACM SIGGRAPH Conference
   link: https://s2025.siggraph.org/
   deadline:
-    - "2025-01-24 21:59"
+    - "2025-01-16 21:59"
   timezone: Etc/GMT+0
   place: Vancouver, BC, Canada
   tags: [CV, CONF]
