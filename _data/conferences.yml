@@ -143,7 +143,7 @@
   link: https://icml.cc/
   deadline:
     - "2025-01-31 23:59"
-  timezone: Etc/GMT+12
+  timezone: Etc/UTC
   place: Vancouver, BC, Canada
   tags: [AI, CONF, Tier1]
 
