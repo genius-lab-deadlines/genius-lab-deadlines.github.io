@@ -341,15 +341,15 @@
   place: N/A
   tags: [SYS, CONF]
 
-- name: (Estimated DDL) MM
+- name: MM
   year: 2025
-  date: Oct
+  date: Oct 27-31
   description: ACM Multimedia
-  link: https://genius-lab-deadlines.github.io/
+  link: https://acmmm2025.org/
   deadline:
-    - "2025-04-12 23:59"
+    - "2025-04-11 23:59"
   timezone: Etc/GMT+12
-  place: TBD
+  place: Dublin, Ireland
   tags: [CV, CONF, Tier1]
 
 - name: (Estimated DDL) 3DV
