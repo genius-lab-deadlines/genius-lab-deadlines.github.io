@@ -36,16 +36,28 @@
   place: Tucson, Arizona, USA
   tags: [AI, CV, CONF]
 
+- name: WACV
+  year: 2026
+  date: Mar 6-10
+  description: IEEE/CVF Winter Conference on Applications of Computer Vision
+  link: https://wacv.thecvf.com/
+  deadline:
+    - "2025-07-18 23:59"
+    - "2025-09-19 23:59"
+  timezone: Etc/GMT+8
+  place: Tucson, Arizona, USA
+  tags: [AI, CV, CONF]
+
 - name: (Estimated DDL) WACV
   year: 2026
   date: TBD
   description: IEEE/CVF Winter Conference on Applications of Computer Vision
-  link: https://genius-lab-deadlines.github.io/
+  link: https://wacv.thecvf.com/
   deadline:
-    - "2025-07-15 23:59"
-    - "2025-09-09 23:59"
+    - "2026-07-18 23:59"
+    - "2026-09-19 23:59"
   timezone: Etc/GMT+8
-  place: TBD
+  place: 
   tags: [AI, CV, CONF]
 
 - name: ICCV
@@ -81,15 +93,26 @@
   place: MiCo Milano, Italy
   tags: [AI, CV, CONF, Tier1]
 
-- name: (Estimated DDL) NeurIPS
+- name: NeurIPS
   year: 2025
-  date: TBD
+  date: Dec 2-7
   description: Neural Information Processing Systems
-  link: https://genius-lab-deadlines.github.io/
+  link: https://neurips.cc/Conferences/2025
   deadline:
-    - "2025-05-22 19:59"
+    - "2025-05-15 19:59"
   timezone: Etc/GMT+0
   place: San Diego, USA
+  tags: [AI, CONF, Tier1]
+
+- name: (Estimated DDL) NeurIPS
+  year: 2026
+  date: TBD
+  description: Neural Information Processing Systems
+  link: https://neurips.cc/Conferences/2026
+  deadline:
+    - "2026-05-15 19:59"
+  timezone: Etc/GMT+0
+  place: TBD
   tags: [AI, CONF, Tier1]
 
 - name: AAAI
@@ -103,15 +126,15 @@
   place: Philadelphia, Pennsylvania, USA
   tags: [AI, CONF, Tier1]
 
-- name: (Estimated DDL) AAAI
-  year: 2025
-  date: TBD
+- name: AAAI
+  year: 2026
+  date: Jan 20-27
   description: Annual AAAI Conference on Artificial Intelligence
-  link: https://genius-lab-deadlines.github.io/
+  link: https://aaai.org/conference/aaai/aaai-26/
   deadline:
-    - "2025-08-15 23:59"
+    - "2025-08-01 23:59"
   timezone: Etc/GMT+12
-  place: TBD
+  place: Singapore
   tags: [AI, CONF, Tier1]
 
 - name: MICCAI
@@ -236,16 +259,16 @@
   place: Irvine, USA
   tags: [SYS, CONF, Tier1]
 
-- name: (Estimated DDL) SenSys
+- name: SenSys
   year: 2026
-  date: TBD
+  date: May 11-16
   description: ACM Conference on Embedded Networked Sensor Systems
   link: https://sensys.acm.org/2026/
   deadline:
-    - "2025-05-14 23:59"
+    - "2025-07-01 23:59"
     - "2025-11-14 23:59"
   timezone: Etc/GMT+12
-  place: TBD
+  place: Saint-Malo, France
   tags: [SYS, CONF, Tier1]
 
 - name: (Estimated DDL) INFOCOM
@@ -259,16 +282,27 @@
   place: TBD
   tags: [SYS, CONF, Tier1]
 
-- name: (Estimated DDL) MobiHoc
+- name: MobiHoc
   year: 2025
+  date: Oct 27-30
+  description: International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing
+  link: https://www.sigmobile.org/mobihoc/2025/
+  deadline:
+    - "2025-04-06 23:59"
+  timezone: Etc/GMT+4
+  place: Houston, USA
+  tags: [SYS, CONF, Tier2]
+
+- name: (Estimated DDL) MobiHoc
+  year: 2026
   date: TBD
   description: International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing
-  link: https://genius-lab-deadlines.github.io/
+  link: https://www.sigmobile.org/mobihoc/2026/
   deadline:
-    - "2025-04-14 23:59"
+    - "2026-04-06 23:59"
   timezone: Etc/GMT+4
   place: TBD
-  tags: [SYS, CONF, Tier1]
+  tags: [SYS, CONF, Tier2]
 
 - name: IMWUT
   year: 2025
@@ -341,7 +375,7 @@
   place: N/A
   tags: [SYS, CONF]
 
-- name: MM
+- name: MultiMedia
   year: 2025
   date: Oct 27-31
   description: ACM Multimedia
@@ -352,35 +386,57 @@
   place: Dublin, Ireland
   tags: [CV, CONF, Tier1]
 
-- name: (Estimated DDL) 3DV
+- name: (Estimated DDL) MultiMedia
   year: 2026
-  date: Aug
-  description: International Conference on 3D Vision
-  link: https://genius-lab-deadlines.github.io/
+  date: TBD
+  description: ACM Multimedia
+  link: https://acmmm2026.org/
   deadline:
-    - "2025-08-12 23:59"
-  timezone: Etc/GMT+7
+    - "2026-04-11 23:59"
+  timezone: Etc/GMT+12
   place: TBD
+  tags: [CV, CONF, Tier1]
+
+- name: 3DV
+  year: 2026
+  date: Mar 20-23
+  description: International Conference on 3D Vision
+  link: https://3dvconf.github.io/2026/
+  deadline:
+    - "2025-08-18 23:59"
+  timezone: Etc/GMT+7
+  place: Vancouver, BC, Canada
   tags: [CV, CONF]
 
 - name: CHI
   year: 2026
-  date: Apr 
+  date: Apr  13-17
   description: CHI conference on Human Factors in Computing Systems
-  link: https://chi2025.acm.org/
+  link: https://chi2026.acm.org/
   deadline:
-    - "2025-09-12 23:59"
+    - "2025-09-11 23:59"
   timezone: Etc/GMT+12
-  place: TBD
+  place: Creant el dema junts, Barcelona
   tags: [SYS, CONF]
 
-- name: (Estimated DDL) SIGGRAPH Asia
+- name: SIGGRAPH Asia
   year: 2025
-  date: Dec
+  date: Dec 15-18
   description: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia 
   link: https://asia.siggraph.org/2025/
   deadline:
-    - "2025-05-19 23:59"
+    - "2025-05-23 23:59"
+  timezone: Etc/GMT+12
+  place: Hong Kong, China
+  tags: [CV, CONF]
+
+- name: (Estimated DDL) SIGGRAPH Asia
+  year: 2026
+  date: TBD
+  description: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia 
+  link: https://asia.siggraph.org/2026/
+  deadline:
+    - "2026-05-23 23:59"
   timezone: Etc/GMT+12
   place: TBD
   tags: [CV, CONF]
