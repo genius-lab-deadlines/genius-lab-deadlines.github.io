@@ -462,3 +462,14 @@
   timezone: Etc/GMT+0
   place: TBD
   tags: [CV, CONF]
+
+- name: BigData
+  year: 2025
+  date: Dec 8-11
+  description: IEEE International Conference on Big Data
+  link: https://bigdataieee.org/BigData2025/
+  deadline:
+    - "2025-08-29 23:59"
+  timezone: Etc/GMT+8
+  place: Macau, China
+  tags: [CONF]
