@@ -88,3 +88,33 @@ The timezone is specified in [tz format][1]. Unlike abbreviations (e.g. EST), th
 ## Acknowledgments
 
 Based on [sec-deadlines](https://sec-deadlines.github.io/) and [ai-deadlines](https://aideadlin.es).
+
+## Automatic updates (no manual work)
+
+`_data/conferences.yml` is **generated**. Do not edit it by hand.
+
+A GitHub Actions workflow ([.github/workflows/update-deadlines.yml](.github/workflows/update-deadlines.yml))
+runs `scripts/update_deadlines.py` every day. For each venue listed in
+[scripts/venues.yml](scripts/venues.yml) it:
+
+1. Pulls the community-maintained [ccfddl/ccf-deadlines](https://github.com/ccfddl/ccf-deadlines) data.
+2. Scrapes the official conference website for the paper submission deadline.
+3. Merges both. When they disagree, an unambiguous official-site date wins.
+4. If no confirmed deadline is in the future, adds an `(Estimated DDL)` entry
+   by shifting the last confirmed deadline forward one year. It is replaced
+   automatically once the real call for papers appears.
+5. Commits the regenerated data; GitHub Pages rebuilds the site and the iCal feeds.
+
+`_data/update_status.yml` records which source each entry came from and why
+any scrape was rejected.
+
+**To add or remove a venue**, edit `scripts/venues.yml` (name, description,
+tags, ccf path, official URL template) and commit. Everything else is automatic.
+
+Run locally:
+
+```
+pip install -r scripts/requirements.txt
+python scripts/update_deadlines.py --dry-run            # print, do not write
+python scripts/update_deadlines.py --only CVPR,ICML     # debug a few venues
+```

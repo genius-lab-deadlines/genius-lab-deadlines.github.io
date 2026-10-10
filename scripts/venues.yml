@@ -1,0 +1,180 @@
+# Registry of tracked venues. The updater (scripts/update_deadlines.py) reads this,
+# NOT _data/conferences.yml, which is generated. To add a venue, add a block here.
+#
+#   name:        short name shown on the site
+#   description: long name
+#   tags:        site tags (see _data/types.yml)
+#   ccf:         path inside ccfddl/ccf-deadlines/conference/ (community source), optional
+#   url:         official site URL template; {year} = 4-digit year, {yy} = 2-digit year
+#   group:       section header in the generated file
+#   period:      years between editions (default 1; ECCV/ICCV are 2)
+
+- name: CVPR
+  description: The IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  tags: [AI, CV, CONF, Tier1]
+  ccf: AI/cvpr
+  url: https://cvpr.thecvf.com/Conferences/{year}
+  group: Computer Vision
+
+- name: ICCV
+  description: IEEE/CVF International Conference on Computer Vision
+  tags: [AI, CV, CONF, Tier1]
+  ccf: AI/iccv
+  period: 2
+  url: https://iccv.thecvf.com/Conferences/{year}
+  group: Computer Vision
+
+- name: ECCV
+  description: European Conference on Computer Vision
+  tags: [AI, CV, CONF, Tier1]
+  ccf: AI/eccv
+  period: 2
+  url: https://eccv.ecva.net/Conferences/{year}
+  group: Computer Vision
+
+- name: WACV
+  description: IEEE/CVF Winter Conference on Applications of Computer Vision
+  tags: [AI, CV, CONF]
+  ccf: AI/wacv
+  url: https://wacv.thecvf.com/Conferences/{year}
+  group: Computer Vision
+
+- name: 3DV
+  description: International Conference on 3D Vision
+  tags: [CV, CONF]
+  ccf: CG/3dv
+  url: https://3dvconf.github.io/{year}/
+  group: Computer Vision
+
+- name: MultiMedia
+  description: ACM Multimedia
+  tags: [CV, CONF, Tier1]
+  ccf: CG/mm
+  url: https://acmmm{year}.org/
+  group: Computer Vision
+
+- name: SIGGRAPH
+  description: ACM SIGGRAPH Conference
+  tags: [CV, CONF]
+  ccf: CG/sig
+  url: https://s{year}.siggraph.org/
+  group: Computer Vision
+
+- name: SIGGRAPH Asia
+  description: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia
+  tags: [CV, CONF]
+  ccf: CG/siga
+  url: https://asia.siggraph.org/{year}/
+  group: Computer Vision
+
+- name: NeurIPS
+  description: Neural Information Processing Systems
+  tags: [AI, CONF, Tier1]
+  ccf: AI/nips
+  url: https://neurips.cc/Conferences/{year}
+  group: Machine Learning and AI
+
+- name: ICML
+  description: International Conference on Machine Learning
+  tags: [AI, CONF, Tier1]
+  ccf: AI/icml
+  url: https://icml.cc/Conferences/{year}
+  group: Machine Learning and AI
+
+- name: ICLR
+  description: International Conference on Learning Representations
+  tags: [AI, CONF, Tier1]
+  ccf: AI/iclr
+  url: https://iclr.cc/Conferences/{year}
+  group: Machine Learning and AI
+
+- name: AAAI
+  description: Annual AAAI Conference on Artificial Intelligence
+  tags: [AI, CONF, Tier1]
+  ccf: AI/aaai
+  url: https://aaai.org/conference/aaai/aaai-{yy}/
+  group: Machine Learning and AI
+
+- name: IJCAI
+  description: International Joint Conferences on Artificial Intelligence
+  tags: [AI, CONF, Tier1]
+  ccf: AI/ijcai
+  url: https://{year}.ijcai.org/
+  group: Machine Learning and AI
+
+- name: MobiCom
+  description: Annual International Conference on Mobile Computing and Networking
+  tags: [SYS, CONF, Tier1]
+  ccf: NW/mobicom
+  url: https://www.sigmobile.org/mobicom/{year}/
+  group: Mobile Systems and Networking
+
+- name: MobiSys
+  description: ACM International Conference on Mobile Systems, Applications, and Services
+  tags: [SYS, CONF, Tier1]
+  ccf: NW/mobisys
+  url: https://sigmobile.org/mobisys/{year}/
+  group: Mobile Systems and Networking
+
+- name: SenSys
+  description: ACM Conference on Embedded Networked Sensor Systems
+  tags: [SYS, CONF, Tier1]
+  ccf: NW/sensys
+  url: https://sensys.acm.org/{year}/
+  group: Mobile Systems and Networking
+
+- name: INFOCOM
+  description: IEEE International Conference on Computer Communications
+  tags: [SYS, CONF, Tier1]
+  ccf: NW/infocom
+  url: https://infocom{year}.ieee-infocom.org/
+  group: Mobile Systems and Networking
+
+- name: MobiHoc
+  description: International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing
+  tags: [SYS, CONF, Tier2]
+  ccf: NW/mobihoc
+  url: https://www.sigmobile.org/mobihoc/{year}/
+  group: Mobile Systems and Networking
+
+- name: SigComm
+  description: Annual Conference of the ACM Special Interest Group on Data Communication
+  tags: [SYS, CONF, Tier1]
+  ccf: NW/sigcomm
+  url: https://conferences.sigcomm.org/sigcomm/{year}/
+  group: Mobile Systems and Networking
+
+- name: ICDCS
+  description: IEEE International Conference on Distributed Computing Systems
+  tags: [SYS, CONF]
+  ccf: DS/icdcs
+  url: https://icdcs{year}.icdcs.org/
+  group: Mobile Systems and Networking
+
+- name: IMWUT
+  description: Interactive, Mobile, Wearable and Ubiquitous Technologies
+  tags: [SYS, JOUR, Tier1]
+  ccf: HI/ubicomp
+  url: https://www.ubicomp.org/ubicomp-iswc-{year}
+  group: Mobile Systems and Networking
+
+- name: CHI
+  description: CHI conference on Human Factors in Computing Systems
+  tags: [SYS, CONF]
+  ccf: HI/chi
+  url: https://chi{year}.acm.org/
+  group: HCI, Medical, and Data
+
+- name: MICCAI
+  description: International Conference on Medical Image Computing and Computer Assisted Intervention
+  tags: [MED, CONF]
+  ccf: MX/miccai
+  url: https://conferences.miccai.org/{year}/en/
+  group: HCI, Medical, and Data
+
+- name: BigData
+  description: IEEE International Conference on Big Data
+  tags: [CONF]
+  ccf: MX/bigdata
+  url: https://bigdataieee.org/BigData{year}/
+  group: HCI, Medical, and Data
