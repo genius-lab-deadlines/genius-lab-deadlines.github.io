@@ -8,7 +8,7 @@ venues:
     checks:
       '2025': not checked (scraping off or deadline long past)
       '2026': official site confirmed 2025-11-13
-      '2027': site unreachable (https://cvpr.thecvf.com/Conferences/2027)
+      '2027': no deadline text found (4 pages)
       '2028': site unreachable (https://cvpr.thecvf.com/Conferences/2028)
   ICCV:
     entries:
