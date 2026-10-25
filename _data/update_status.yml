@@ -33,7 +33,7 @@ venues:
     - 'WACV 2028: estimated from 2027'
     checks:
       '2025': not checked (scraping off or deadline long past)
-      '2026': no deadline text found (5 pages)
+      '2026': not checked (scraping off or deadline long past)
       '2027': no deadline text found (5 pages)
       '2028': site unreachable (https://wacv.thecvf.com/Conferences/2028)
   3DV:
