@@ -146,12 +146,12 @@ venues:
       '2028': site unreachable (https://sensys.acm.org/2028/)
   INFOCOM:
     entries:
-    - 'INFOCOM 2027: ccf+official'
+    - 'INFOCOM 2027: ccf'
     - 'INFOCOM 2028: estimated from 2027'
     checks:
       '2025': not checked (scraping off or deadline long past)
       '2026': not checked (scraping off or deadline long past)
-      '2027': official site confirmed 2026-07-31
+      '2027': site unreachable (https://infocom2027.ieee-infocom.org/)
       '2028': site unreachable (https://infocom2028.ieee-infocom.org/)
   MobiHoc:
     entries:
