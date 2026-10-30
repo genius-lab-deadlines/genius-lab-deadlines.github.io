@@ -96,7 +96,7 @@ venues:
     - 'ICLR 2028: estimated from 2027'
     checks:
       '2025': not checked (scraping off or deadline long past)
-      '2026': no deadline text found (5 pages)
+      '2026': not checked (scraping off or deadline long past)
       '2027': official site confirmed 2026-09-25
       '2028': site unreachable (https://iclr.cc/Conferences/2028)
   AAAI:
