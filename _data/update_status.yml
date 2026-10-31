@@ -74,11 +74,11 @@ venues:
       '2028': site unreachable (https://asia.siggraph.org/2028/)
   NeurIPS:
     entries:
-    - 'NeurIPS 2026: ccf+official'
+    - 'NeurIPS 2026: ccf'
     - 'NeurIPS 2027: estimated from 2026'
     checks:
       '2025': not checked (scraping off or deadline long past)
-      '2026': official site confirmed 2026-05-06
+      '2026': no deadline text found (5 pages)
       '2027': site unreachable (https://neurips.cc/Conferences/2027)
       '2028': site unreachable (https://neurips.cc/Conferences/2028)
   ICML:
