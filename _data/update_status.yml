@@ -57,7 +57,7 @@ venues:
   SIGGRAPH:
     entries:
     - 'SIGGRAPH 2026: ccf'
-    - 'SIGGRAPH 2027: estimated from 2026'
+    - 'SIGGRAPH 2027: ccf'
     checks:
       '2025': not checked (scraping off or deadline long past)
       '2026': no deadline text found (1 pages)
@@ -88,7 +88,7 @@ venues:
     checks:
       '2025': not checked (scraping off or deadline long past)
       '2026': official site confirmed 2026-01-28
-      '2027': site unreachable (https://icml.cc/Conferences/2027)
+      '2027': no deadline text found (5 pages)
       '2028': site unreachable (https://icml.cc/Conferences/2028)
   ICLR:
     entries:
