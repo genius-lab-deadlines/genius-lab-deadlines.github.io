@@ -137,8 +137,8 @@ venues:
       '2028': site unreachable (https://sigmobile.org/mobisys/2028/)
   SenSys:
     entries:
-    - 'SenSys 2026: ccf'
     - 'SenSys 2027: ccf+official'
+    - 'SenSys 2028: estimated from 2027'
     checks:
       '2025': not checked (scraping off or deadline long past)
       '2026': no deadline text found (3 pages)
@@ -206,7 +206,7 @@ venues:
       '2025': not checked (scraping off or deadline long past)
       '2026': no deadline text found (5 pages)
       '2027': no deadline text found (4 pages)
-      '2028': no deadline text found (1 pages)
+      '2028': site unreachable (https://conferences.miccai.org/2028/en/)
   BigData:
     entries:
     - 'BigData 2026: ccf+official'
