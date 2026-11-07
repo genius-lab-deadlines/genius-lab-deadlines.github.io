@@ -204,7 +204,7 @@ venues:
     - 'MICCAI 2027: estimated from 2026'
     checks:
       '2025': not checked (scraping off or deadline long past)
-      '2026': no deadline text found (5 pages)
+      '2026': site unreachable (https://conferences.miccai.org/2026/en/)
       '2027': no deadline text found (4 pages)
       '2028': site unreachable (https://conferences.miccai.org/2028/en/)
   BigData:
