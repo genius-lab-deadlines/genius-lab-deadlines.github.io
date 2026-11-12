@@ -16,7 +16,7 @@ venues:
     checks:
       '2025': not checked (scraping off or deadline long past)
       '2026': site unreachable (https://iccv.thecvf.com/Conferences/2026)
-      '2027': no deadline text found (3 pages)
+      '2027': no deadline text found (2 pages)
       '2028': site unreachable (https://iccv.thecvf.com/Conferences/2028)
   ECCV:
     entries:
@@ -137,12 +137,12 @@ venues:
       '2028': site unreachable (https://sigmobile.org/mobisys/2028/)
   SenSys:
     entries:
-    - 'SenSys 2027: ccf+official'
+    - 'SenSys 2027: ccf'
     - 'SenSys 2028: estimated from 2027'
     checks:
       '2025': not checked (scraping off or deadline long past)
       '2026': no deadline text found (3 pages)
-      '2027': official site confirmed 2026-11-05
+      '2027': 'ambiguous dates on site: 2026-11-05, 2026-12-01'
       '2028': site unreachable (https://sensys.acm.org/2028/)
   INFOCOM:
     entries:
