@@ -3,12 +3,12 @@ last_run_week: 2026-W46
 venues:
   CVPR:
     entries:
-    - 'CVPR 2026: ccf'
+    - 'CVPR 2026: ccf+official'
     - 'CVPR 2027: ccf'
     checks:
       '2025': not checked (scraping off or deadline long past)
-      '2026': site unreachable (https://cvpr.thecvf.com/Conferences/2026)
-      '2027': site unreachable (https://cvpr.thecvf.com/Conferences/2027)
+      '2026': official site confirmed 2025-11-13
+      '2027': no deadline text found (5 pages)
       '2028': site unreachable (https://cvpr.thecvf.com/Conferences/2028)
   ICCV:
     entries:
@@ -16,7 +16,7 @@ venues:
     checks:
       '2025': not checked (scraping off or deadline long past)
       '2026': site unreachable (https://iccv.thecvf.com/Conferences/2026)
-      '2027': site unreachable (https://iccv.thecvf.com/Conferences/2027)
+      '2027': no deadline text found (2 pages)
       '2028': site unreachable (https://iccv.thecvf.com/Conferences/2028)
   ECCV:
     entries:
@@ -24,7 +24,7 @@ venues:
     - 'ECCV 2028: estimated from 2026'
     checks:
       '2025': not checked (scraping off or deadline long past)
-      '2026': site unreachable (https://eccv.ecva.net/Conferences/2026)
+      '2026': no deadline text found (5 pages)
       '2027': site unreachable (https://eccv.ecva.net/Conferences/2027)
       '2028': site unreachable (https://eccv.ecva.net/Conferences/2028)
   WACV:
@@ -34,7 +34,7 @@ venues:
     checks:
       '2025': not checked (scraping off or deadline long past)
       '2026': not checked (scraping off or deadline long past)
-      '2027': site unreachable (https://wacv.thecvf.com/Conferences/2027)
+      '2027': no deadline text found (5 pages)
       '2028': site unreachable (https://wacv.thecvf.com/Conferences/2028)
   3DV:
     entries:
@@ -74,30 +74,30 @@ venues:
       '2028': site unreachable (https://asia.siggraph.org/2028/)
   NeurIPS:
     entries:
-    - 'NeurIPS 2026: ccf'
+    - 'NeurIPS 2026: ccf+official'
     - 'NeurIPS 2027: estimated from 2026'
     checks:
       '2025': not checked (scraping off or deadline long past)
-      '2026': site unreachable (https://neurips.cc/Conferences/2026)
+      '2026': official site confirmed 2026-05-06
       '2027': site unreachable (https://neurips.cc/Conferences/2027)
       '2028': site unreachable (https://neurips.cc/Conferences/2028)
   ICML:
     entries:
-    - 'ICML 2026: ccf'
-    - 'ICML 2027: estimated from 2026'
+    - 'ICML 2026: ccf+official'
+    - 'ICML 2027: official'
     checks:
       '2025': not checked (scraping off or deadline long past)
-      '2026': site unreachable (https://icml.cc/Conferences/2026)
-      '2027': site unreachable (https://icml.cc/Conferences/2027)
+      '2026': official site confirmed 2026-01-28
+      '2027': official site confirmed 2027-01-22
       '2028': site unreachable (https://icml.cc/Conferences/2028)
   ICLR:
     entries:
-    - 'ICLR 2027: ccf'
+    - 'ICLR 2027: ccf+official'
     - 'ICLR 2028: estimated from 2027'
     checks:
       '2025': not checked (scraping off or deadline long past)
       '2026': not checked (scraping off or deadline long past)
-      '2027': site unreachable (https://iclr.cc/Conferences/2027)
+      '2027': official site confirmed 2026-09-25
       '2028': site unreachable (https://iclr.cc/Conferences/2028)
   AAAI:
     entries:
