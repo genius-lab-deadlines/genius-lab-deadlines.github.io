@@ -16,7 +16,7 @@ venues:
     checks:
       '2025': not checked (scraping off or deadline long past)
       '2026': site unreachable (https://iccv.thecvf.com/Conferences/2026)
-      '2027': no deadline text found (3 pages)
+      '2027': no deadline text found (2 pages)
       '2028': site unreachable (https://iccv.thecvf.com/Conferences/2028)
   ECCV:
     entries:
@@ -123,27 +123,27 @@ venues:
     - 'MobiCom 2028: estimated from 2027'
     checks:
       '2025': not checked (scraping off or deadline long past)
-      '2026': no deadline text found (5 pages)
-      '2027': no deadline text found (3 pages)
-      '2028': site unreachable (https://www.sigmobile.org/mobicom/2028/)
+      '2026': no deadline text found (1 pages)
+      '2027': no deadline text found (1 pages)
+      '2028': no deadline text found (1 pages)
   MobiSys:
     entries:
     - 'MobiSys 2026: ccf'
     - 'MobiSys 2027: ccf'
     checks:
       '2025': not checked (scraping off or deadline long past)
-      '2026': no deadline text found (5 pages)
-      '2027': no deadline text found (2 pages)
-      '2028': site unreachable (https://sigmobile.org/mobisys/2028/)
+      '2026': no deadline text found (1 pages)
+      '2027': no deadline text found (1 pages)
+      '2028': no deadline text found (1 pages)
   SenSys:
     entries:
     - 'SenSys 2027: ccf'
     - 'SenSys 2028: estimated from 2027'
     checks:
       '2025': not checked (scraping off or deadline long past)
-      '2026': no deadline text found (3 pages)
-      '2027': 'ambiguous dates on site: 2026-11-05, 2026-12-01'
-      '2028': site unreachable (https://sensys.acm.org/2028/)
+      '2026': no deadline text found (1 pages)
+      '2027': no deadline text found (1 pages)
+      '2028': no deadline text found (1 pages)
   INFOCOM:
     entries:
     - 'INFOCOM 2027: ccf+official'
@@ -159,26 +159,26 @@ venues:
     - 'MobiHoc 2027: estimated from 2026'
     checks:
       '2025': not checked (scraping off or deadline long past)
-      '2026': no deadline text found (5 pages)
-      '2027': site unreachable (https://www.sigmobile.org/mobihoc/2027/)
-      '2028': site unreachable (https://www.sigmobile.org/mobihoc/2028/)
+      '2026': no deadline text found (1 pages)
+      '2027': no deadline text found (1 pages)
+      '2028': no deadline text found (1 pages)
   SigComm:
     entries:
-    - 'SigComm 2026: ccf+official'
+    - 'SigComm 2026: ccf'
     - 'SigComm 2027: ccf'
     checks:
       '2025': not checked (scraping off or deadline long past)
-      '2026': official site confirmed 2026-02-06
-      '2027': no deadline text found (3 pages)
-      '2028': site unreachable (https://conferences.sigcomm.org/sigcomm/2028/)
+      '2026': no deadline text found (1 pages)
+      '2027': no deadline text found (1 pages)
+      '2028': no deadline text found (1 pages)
   ICDCS:
     entries:
-    - 'ICDCS 2026: ccf+official'
-    - 'ICDCS 2027: estimated from 2026'
+    - 'ICDCS 2026: ccf'
+    - 'ICDCS 2027: official'
     checks:
       '2025': not checked (scraping off or deadline long past)
-      '2026': official site confirmed 2026-01-21
-      '2027': no deadline text found (1 pages)
+      '2026': no deadline text found (5 pages)
+      '2027': official site confirmed 2027-01-13
       '2028': site unreachable (https://icdcs2028.icdcs.org/)
   IMWUT:
     entries:
@@ -186,9 +186,9 @@ venues:
     - 'IMWUT 2027: estimated from 2026'
     checks:
       '2025': not checked (scraping off or deadline long past)
-      '2026': 'ambiguous dates on site: 2026-05-24, 2026-06-08, 2026-06-22'
-      '2027': site unreachable (https://www.ubicomp.org/ubicomp-iswc-2027)
-      '2028': site unreachable (https://www.ubicomp.org/ubicomp-iswc-2028)
+      '2026': no deadline text found (1 pages)
+      '2027': no deadline text found (1 pages)
+      '2028': no deadline text found (1 pages)
   CHI:
     entries:
     - 'CHI 2027: ccf'
@@ -196,7 +196,7 @@ venues:
     checks:
       '2025': not checked (scraping off or deadline long past)
       '2026': not checked (scraping off or deadline long past)
-      '2027': no deadline text found (5 pages)
+      '2027': no deadline text found (1 pages)
       '2028': no deadline text found (1 pages)
   MICCAI:
     entries:
@@ -209,10 +209,10 @@ venues:
       '2028': site unreachable (https://conferences.miccai.org/2028/en/)
   BigData:
     entries:
-    - 'BigData 2026: ccf+official'
+    - 'BigData 2026: ccf'
     - 'BigData 2027: estimated from 2026'
     checks:
       '2025': not checked (scraping off or deadline long past)
-      '2026': official site confirmed 2026-08-21
-      '2027': site unreachable (https://bigdataieee.org/BigData2027/)
-      '2028': site unreachable (https://bigdataieee.org/BigData2028/)
+      '2026': no deadline text found (1 pages)
+      '2027': no deadline text found (1 pages)
+      '2028': no deadline text found (1 pages)
